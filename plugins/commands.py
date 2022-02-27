@@ -89,7 +89,7 @@ async def start(client, message):
             
             
             ],
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('👾 Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
